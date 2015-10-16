@@ -1,0 +1,11 @@
+﻿{
+    "editable": [
+        "Rijndael.cs"
+    ],
+    "excludes": [
+        ".gitignore",
+        "codecheck.json",
+        "HiddenTests.cs"
+    ],
+    "test": "nunit-console target/RijndaelMedium.dll"
+}
