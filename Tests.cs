@@ -69,6 +69,25 @@ namespace RijndaelMedium
             Assert.AreEqual("3243f6a8885a308d313198a2e0370734", result);
         }
 
+        [Test]
+        public void Ensure()
+        {
+            var rnd = new Random();
+            var key = new byte[32];
+            var data = new byte[16]; // Single block!
+            var backup = new byte[16];
+
+            for (int i = 0; i < 10; i++)
+            {
+                rnd.NextBytes(key);
+                rnd.NextBytes(data);
+                Array.Copy(data, backup, data.Length);
+
+                SetKey(key);
+                Assert.AreEqual(backup, Decrypt(Encrypt(data)));
+            }
+        }
+
         public byte[] ToBytes(string sIn)
         {
             return sIn
