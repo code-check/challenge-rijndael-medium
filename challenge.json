@@ -1,0 +1,12 @@
+?{
+  "editable": [
+    "app.js",
+    "package.json"
+  ],
+  "excludes": [
+    ".gitignore",
+    "challenge.json",
+    "test2.js"
+  ],
+  "test": "mocha"
+}

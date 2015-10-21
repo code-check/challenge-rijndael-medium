@@ -1,0 +1,8 @@
+{
+  "name": "challenge-rot13",
+  "author": "Givery Inc.",
+  "main": "app.js",
+  "dependencies": {
+    "chai": "^2.2.0"
+  }
+}
