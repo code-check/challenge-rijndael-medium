@@ -1,6 +1,6 @@
 {
   "editable": [
-    "src/main/java/*"
+    "src/main/java/Rijndael.java"
   ],
   "excludes": [
     ".gitignore",
