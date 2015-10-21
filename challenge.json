@@ -1,0 +1,11 @@
+{
+  "editable": [
+    "src/main/scala/Rijdael.scala",
+    "build.sbt"
+  ],
+  "excludes": [
+    ".gitignore",
+    "challenge.json"
+  ],
+  "test": "sbt test"
+}

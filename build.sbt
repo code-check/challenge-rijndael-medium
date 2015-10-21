@@ -1,0 +1,10 @@
+name := """challenge-rijndael-medium"""
+
+version := "1.0"
+
+scalaVersion := "2.11.7"
+
+libraryDependencies += "org.scalatest" %% "scalatest" % "2.2.4" % "test"
+//BEGIN_CHALLENGE
+libraryDependencies += "org.bouncycastle" % "bcprov-jdk16" % "1.46"
+//END_CHALLENGE
