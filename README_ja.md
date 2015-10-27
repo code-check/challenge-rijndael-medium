@@ -1,4 +1,4 @@
-## Information
+## インフォメーション
 Rijndael, commonly referred to as the ***Advanced Encryption Standard*** (AES), is a specification for encrypting data.
 
 The goal of this challenge is to implement this cipher so it will validate under the various test cases.
