@@ -1,0 +1,10 @@
+﻿{
+    "editable": [
+        "rijndael.go"
+    ],
+    "excludes": [
+        "challenge.json",
+        "rijndael_hidden_test.go"
+    ],
+    "test": "go test"
+}
