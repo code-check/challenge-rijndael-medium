@@ -1,4 +1,10 @@
 {
+  "tags": [
+    "Java",
+    "AES",
+    "Cipher",
+    "Algorithm"
+  ],
   "editable": [
     "src/main/java/Rijndael.java"
   ],
