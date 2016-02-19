@@ -1,4 +1,10 @@
 {
+  "tags": [
+    "Scala",
+    "AES",
+    "Cipher",
+    "Algorithm"
+  ],
   "editable": [
     "src/main/scala/Rijdael.scala",
     "build.sbt"
