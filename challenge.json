@@ -1,4 +1,10 @@
 ﻿{
+    "tags": [
+        "C#",
+        "AES",
+        "Cipher",
+        "Algorithm"
+    ],
     "editable": [
         "Rijndael.cs"
     ],
