@@ -1,4 +1,10 @@
 ﻿{
+    "tags": [
+        "GoLang",
+        "AES",
+        "Cipher",
+        "Algorithm"
+    ],
     "editable": [
         "rijndael.go"
     ],
