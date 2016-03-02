@@ -8,7 +8,7 @@ Create your encrypt function in [Rijndael.cs](Rijndael.cs) under `encrypt`.
 This function will be called from the test cases with the following parameters;
 - `byte`
  - The data to encrypt as an array of bytes.
- - 
+  
 The key for the encryption will be provided by the `SetKey` function.
 
 The function should return the encrypted data as an array of bytes.
