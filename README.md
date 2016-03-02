@@ -9,7 +9,7 @@ The goal of this challenge is to implement this cipher so it will validate under
 
 
 ### STEP2. Explain about your answer
-Write down your idea about how you code on (answer.md)[answer.md].
+Write down your idea about how you code on [answer.md](answer.md).
 
 #### Links
 - [Wikipedia](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)
