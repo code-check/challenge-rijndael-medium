@@ -5,7 +5,7 @@ The goal of this challenge is to implement this cipher so it will validate under
 
 ### STEP1. Implement Rijindael
 - Pass all of test by editing [Rijindael.scala](src/main/scala/Rijndael.scala).
-- The test file is [RijndaelTest.scala](src/test/scala/RijndaelTest.scala).
+- You can make sure the test file from [RijndaelTest.scala](src/test/scala/RijndaelTest.scala).
 
 
 ### STEP2. Explain about your answer
