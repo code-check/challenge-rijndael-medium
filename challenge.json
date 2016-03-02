@@ -7,7 +7,8 @@
   ],
   "editable": [
     "app.js",
-    "package.json"
+    "package.json",
+    "answer.md"
   ],
   "excludes": [
     ".gitignore",
