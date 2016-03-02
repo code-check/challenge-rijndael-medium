@@ -6,7 +6,8 @@
         "Algorithm"
     ],
     "editable": [
-        "rijndael.go"
+        "rijndael.go",
+        "answer.md"
     ],
     "excludes": [
         "challenge.json",
