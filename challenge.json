@@ -6,7 +6,8 @@
     "Algorithm"
   ],
   "editable": [
-    "src/main/java/Rijndael.java"
+    "src/main/java/Rijndael.java",
+    "answer.md"
   ],
   "excludes": [
     ".gitignore",
