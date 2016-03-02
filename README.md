@@ -5,7 +5,7 @@ The goal of this challenge is to implement this cipher so it will validate under
 
 ### Step 1, Encryption
 Create your encrypt function in [Rijindael.scala](src/main/scala/Rijndael.scala) under `encrypt`.
-This function we called from the test cases with the following;
+This function will be called from the test cases with the following parameters;
 - `byte`
  - The data to encrypt as an array of bytes.
 - `key`
@@ -20,7 +20,7 @@ When your code is working correctly, the following test cases should pass:
 
 ### Step 2, Decryption
 Create your decrypt function in [Rijindael.scala](src/main/scala/Rijndael.scala) under `decrypt`.
-This function we called from the test cases with the following;
+This function will be called from the test cases with the following parameters;
 - `byte`
  - The data to decrypt as an array of bytes.
 - `key`
