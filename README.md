@@ -1,7 +1,43 @@
-﻿## Information
+## Information
 Rijndael, commonly referred to as the ***Advanced Encryption Standard*** (AES), is a specification for encrypting data.
 
 The goal of this challenge is to implement this cipher so it will validate under the various test cases.
+
+### Step 1, Implement
+Implement the IRijndael interface and its functions.
+
+### Step 2, Encryption
+Create your encrypt function in [Rijindael.java](src/main/java/Rijndael.java) under `encrypt`.
+This function will be called from the test cases with the following parameters;
+- `byte`
+ - The data to encrypt as an array of bytes.
+- `key`
+ - The key to use for the encryption, as an array of bytes.
+
+The function should return the encrypted data as an array of bytes.
+
+When your code is working correctly, the following test cases should pass:
+- EncryptCase 1
+- EncryptCase 2
+- EncryptCase 3
+
+### Step 3, Decryption
+Create your decrypt function in [Rijindael.java](src/main/java/Rijndael.java) under `decrypt`.
+This function will be called from the test cases with the following parameters;
+- `byte`
+ - The data to decrypt as an array of bytes.
+- `key`
+ - The key to use for the decryption, as an array of bytes.
+
+The function should return the decrypted data as an array of bytes.
+
+When your code is working correctly, the following test cases should pass:
+- DecryptCase 1
+- DecryptCase 2
+- DecryptCase 3
+
+### Step 4, Explain your code
+In [answer.md](answer.md) write a brief explanation about how your code works and how you solved any problems which you encountered. 
 
 #### Links
 - [Wikipedia](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)
