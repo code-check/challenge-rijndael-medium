@@ -1,7 +1,34 @@
-﻿## Information
+## Information
 Rijndael, commonly referred to as the ***Advanced Encryption Standard*** (AES), is a specification for encrypting data.
 
 The goal of this challenge is to implement this cipher so it will validate under the various test cases.
+
+### Step 1, Encryption
+Create your encrypt function in [app.js](app.js) under `exports.encrypt`.
+This function will be called from the test cases with the following parameters;
+- `byte`
+ - The data to encrypt as a Buffer.
+- `key`
+ - The key to use for the encryption, as a Buffer.
+
+The function should return the encrypted data as a Buffer.
+
+When your code is working correctly, the `Encrypt` test cases should be passed.
+
+### Step 2, Decryption
+Create your decrypt function in [app.js](app.js) under `exports.decrypt`.
+This function will be called from the test cases with the following parameters;
+- `byte`
+ - The data to decrypt as a Buffer.
+- `key`
+ - The key to use for the decryption, as a Buffer.
+
+The function should return the decrypted data as as a Buffer.
+
+When your code is working correctly, the `Decrypt` test cases should be passed.
+
+### Step 3, Explain your code
+In [answer.md](answer.md) write a brief explanation about how your code works and how you solved any problems which you encountered. 
 
 #### Links
 - [Wikipedia](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)
