@@ -7,7 +7,8 @@
   ],
   "editable": [
     "src/main/scala/Rijdael.scala",
-    "build.sbt"
+    "build.sbt",
+    "answer.md"
   ],
   "excludes": [
     ".gitignore",
