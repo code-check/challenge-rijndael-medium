@@ -6,7 +6,8 @@
         "Algorithm"
     ],
     "editable": [
-        "Rijndael.cs"
+        "Rijndael.cs",
+        "answer.md"
     ],
     "excludes": [
         ".gitignore",
