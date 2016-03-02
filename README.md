@@ -4,7 +4,9 @@ Rijndael, commonly referred to as the ***Advanced Encryption Standard*** (AES), 
 The goal of this challenge is to implement this cipher so it will validate under the various test cases.
 
 ### STEP1. Implement Rijindael
-Pass all of test([RijndaelTest.scala](src/test/scala/RijndaelTest.scala)). by modifying (Rijindael.scala)[src/main/scala/Rijndael.scala].
+- Pass all of test by editing (Rijindael.scala)[src/main/scala/Rijndael.scala].
+- The test file is [RijndaelTest.scala](src/test/scala/RijndaelTest.scala).
+
 
 ### STEP2. Explain about your answer
 Write down your idea about how you code on (answer.md)[answer.md].
