@@ -11,7 +11,7 @@ Rijndaelとは、ベルギーの数学者Joan Daemen氏とVincent Rijmen氏に�
 - [FIPS publication](http://csrc.nist.gov/publications/fips/fips197/fips-197.pdf)
 
 ## 問題
-この問題では、いくつかのテストケースが与えられており、それらをすべて満たす暗号化の実装をすることです。
+この問題では、いくつかのテストケースが与えられており、それらをすべて満たす暗号化の実装をします。
 
 ### ステップ1, 暗号化を実装してください
 - [test1.js](test/test1.js) にテストコードが記載されています。
