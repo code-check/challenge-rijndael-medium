@@ -52,10 +52,9 @@ Rijndaelとは、ベルギーの数学者Joan Daemen氏とVincent Rijmen氏に�
 </table>
 
 #### 正しいテストの実行結果
-- 正しく問題を解答できた場合、テストケースのうちの以下の5つが通過することができます
+- 正しく問題を解答できた場合、テストケースのうちの以下の4つが通過することができます
 ```
 ok 1 App specs encrypt should return a buffer
-ok 2 App specs decrypt should return a buffer
 ok 3 Encrypt case 1
 ok 4 Encrypt case 2
 ok 5 Encrypt case 3
@@ -100,12 +99,12 @@ ok 5 Encrypt case 3
 </table>
 
 #### 正しいテストの実行結果
-- 正しく問題を解答できた場合、テストケースのうちの以下の5つが通過することができます
+- 正しく問題を解答できた場合、テストケースのうちの以下の4つが通過することができます
 ```
+ok 2 App specs decrypt should return a buffer
 ok 6 Decrypt case 1
 ok 7 Decrypt case 2
 ok 8 Decrypt case 3
-ok 9 Hidden ensure
 ```
 
 ### ステップ3, あなたの書いたコードについて説明してください
@@ -121,9 +120,20 @@ ok 9 Hidden ensure
 - テストの実行結果として以下の表示がされればクリアです。
 
 ```
+ok 1 App specs encrypt should return a buffer
+ok 2 App specs decrypt should return a buffer
+ok 3 Encrypt case 1
+ok 4 Encrypt case 2
+ok 5 Encrypt case 3
+ok 6 Decrypt case 1
+ok 7 Decrypt case 2
+ok 8 Decrypt case 3
+# tests 8
+# pass 8
+# fail 0
 codecheck: Finish with code 0
-codecheck: tests  : 9
-codecheck: success: 9
+codecheck: tests : 8
+codecheck: success: 8
 codecheck: failure: 0
 ```
 
