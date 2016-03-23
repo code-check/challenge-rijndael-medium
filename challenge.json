@@ -8,14 +8,14 @@
   "editable": [
     "app.js",
     "package.json",
-    "answer.md"
+    "answer.md",
+    ".gitignore"
   ],
   "readme" : {
     "en" : "README.md",
     "ja" : "README_ja.md"
   },
   "excludes": [
-    ".gitignore",
     "challenge.json",
     "test2.js"
   ],
