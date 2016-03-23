@@ -97,11 +97,11 @@ Write Test reults after solving challenge
 ```
 --- --- ---
 ## Run Tests
-- To run tests locally install `codecheck` by running the following command in terminal 
+To run tests locally install `codecheck` by running the following command in terminal 
 ```
 $ npm install codecheck -g
 ```
-- To run tests in web editor please click in `RUN` button on left side of web editor
+To run tests in web editor please click in `RUN` button on left side of web editor
 
 ## Explain your code
 In [answer.md](answer.md) write a brief explanation 
