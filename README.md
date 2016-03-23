@@ -1,7 +1,6 @@
 ## rijndael
- - Difficulty : Medium
- - Rijndael, commonly referred to as the ***Advanced Encryption Standard*** (AES), is a specification for encrypting data.
- - Solve the challenge to implement this cipher and pass [tests](src/test/RijndaelTest.java).
+Rijndael, commonly referred to as the ***Advanced Encryption Standard*** (AES), is a specification for encrypting data.
+Solve the challenge to implement this cipher and pass [tests](src/test/RijndaelTest.java).
 
 ## Challenge Description
 ### Step 1: Encryption
@@ -41,11 +40,6 @@ The function should return the encrypted data as an array of bytes.
     </tr>
 </table>
 
-- When your code is working correctly, the following test cases should pass:
- - EncryptCase 1
- - EncryptCase 2
- - EncryptCase 3
-
 ### Step 2: Decryption
 Create your decrypt function in [filename](filepath) under `decrypt`.
 This function will be called from the test cases with the following parameters;
@@ -83,7 +77,7 @@ The function should return the decrypted data as an array of bytes.
         <td>3243f6a8885a308d313198a2e0370734</td>
     </tr>
 </table>
- 
+
 #### Note
 - The data passed will be a single block.
 - There will be 3 different sizes of keys passed.
@@ -127,4 +121,3 @@ In [answer.md](answer.md) write a brief explanation
 - [Wikipedia](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)
 - [Flash animation](http://www.formaestudio.com/rijndaelinspector/archivos/Rijndael_Animation_v4_eng.swf)
 - [FIPS publication](http://csrc.nist.gov/publications/fips/fips197/fips-197.pdf)
->>>>>>> fe93dca9799c0e128b758e8baaf7d9e67de92bfe
