@@ -1,23 +1,18 @@
-﻿## Information
-Rijndael, commonly referred to as the ***Advanced Encryption Standard*** (AES), is a specification for encrypting data.
+## rijndael
+ - Difficulty : Medium
+ - Rijndael, commonly referred to as the ***Advanced Encryption Standard*** (AES), is a specification for encrypting data.
+ - Solve the challenge to implement this cipher and pass [tests](https://github.com/code-check/challenge-rijndael-medium/blob/scala/src/test/scala/RijndaelTest.scala).
 
-The goal of this challenge is to implement this cipher so it will validate under the various test cases.
+## Challenge Description
+### Step 1: Encryption
+Create your encrypt function in [filename](filepath) under `encrypt`.
+This function will be called from the test cases with the following parameters;
+- `byte`
+ - The data to encrypt as an array of bytes.
+- `key`
+ - The key to use for the encryption, as an array of bytes.
 
-#### Links
-- [Wikipedia](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)
-- [Flash animation](http://www.formaestudio.com/rijndaelinspector/archivos/Rijndael_Animation_v4_eng.swf)
-- [FIPS publication](http://csrc.nist.gov/publications/fips/fips197/fips-197.pdf)
-
-#### Notes
-- The data passed will be a single block.
-- There will be 3 different sizes of keys passed.
-    - 128 
-    - 192 
-    - 256
-- The cipher mode will ***always*** be ECB
-- It is allowed to use packages or build-in functionality for this, which means writing your own cipher code is optional.
-
-## Test cases
+The function should return the encrypted data as an array of bytes.
 
 #### Encrypt
 <table>
@@ -47,6 +42,21 @@ The goal of this challenge is to implement this cipher so it will validate under
     </tr>
 </table>
 
+- When your code is working correctly, the following test cases should pass:
+ - EncryptCase 1
+ - EncryptCase 2
+ - EncryptCase 3
+
+### Step 2: Decryption
+Create your decrypt function in [filename](filepath) under `decrypt`.
+This function will be called from the test cases with the following parameters;
+- `byte`
+ - The data to decrypt as an array of bytes.
+- `key`
+ - The key to use for the decryption, as an array of bytes.
+
+The function should return the decrypted data as an array of bytes.
+
 #### Decrypt
 <table>
     <tr>
@@ -74,3 +84,46 @@ The goal of this challenge is to implement this cipher so it will validate under
         <td>3243f6a8885a308d313198a2e0370734</td>
     </tr>
 </table>
+
+- When your code is working correctly, the following test cases should pass:
+ - DecryptCase 1
+ - DecryptCase 2
+ - DecryptCase 3
+ 
+#### Note
+- The data passed will be a single block.
+- There will be 3 different sizes of keys passed.
+    - 128 
+    - 192 
+    - 256
+- The cipher mode will ***always*** be ECB
+- *It is allowed to use packages or build-in functionality for this, which means writing your own cipher code is optional.*
+
+### Test Results *before* solving the challenge  
+```
+Write Test reults before solving challenge
+```
+
+### Test Results *after* solving the challenge
+```
+Write Test reults after solving challenge
+```
+--- --- ---
+## Run Tests
+- To run tests locally install `codecheck` by running the following command in terminal 
+```
+$ npm install codecheck -g
+```
+- To run tests in web editor please click in `RUN` button on left side of web editor
+
+## Explain your code
+In [answer.md](answer.md) write a brief explanation 
+- About how your code works
+- Problems faced while solving the challenge
+- How you solved those problems
+- Improvements/Feedbacks are also welcomed
+
+#### References
+- [Wikipedia](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)
+- [Flash animation](http://www.formaestudio.com/rijndaelinspector/archivos/Rijndael_Animation_v4_eng.swf)
+- [FIPS publication](http://csrc.nist.gov/publications/fips/fips197/fips-197.pdf)
