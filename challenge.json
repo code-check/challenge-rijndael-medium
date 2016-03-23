@@ -15,5 +15,10 @@
         "challenge.json",
         "rijndael_hidden_test.go"
     ],
+    "readme" : {
+        "en" : "README.md",
+        "ja" : "README_ja.md"
+    },
+    "allowNewFile": true,
     "test": "go test"
 }
