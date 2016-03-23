@@ -7,10 +7,10 @@
   ],
   "editable": [
     "src/main/java/Rijndael.java",
-    "answer.md"
+    "answer.md",
+    ".gitignore"
   ],
   "excludes": [
-    ".gitignore",
     "challenge.json",
     "RijndaelHiddenTest.java"
   ],
