@@ -1,56 +1,16 @@
-## Information
-Rijndael, commonly referred to as the ***Advanced Encryption Standard*** (AES), is a specification for encrypting data.
+## rijndael
+Rijndael, commonly referred to as the ***Advanced Encryption Standard*** (AES), is a specification for encrypting data. Solve the challenge to implement this cipher and pass [tests](testfilepath).
 
-The goal of this challenge is to implement this cipher so it will validate under the various test cases.
-
-### Step 1, Encryption
+## Challenge Description
+### Step 1: Encryption
 Create your encrypt function in [Rijndael.cs](Rijndael.cs) under `encrypt`.
 This function will be called from the test cases with the following parameters;
 - `byte`
  - The data to encrypt as an array of bytes.
-  
-The key for the encryption will be provided by the `SetKey` function.
+- `key`
+ - The key to use for the encryption, as an array of bytes.
 
 The function should return the encrypted data as an array of bytes.
-
-When your code is working correctly, the following test cases should pass:
-- EncryptCase 1
-- EncryptCase 2
-- EncryptCase 3
-
-### Step 2, Decryption
-Create your decrypt function in [Rijndael.cs](Rijndael.cs) under `decrypt`.
-This function will be called from the test cases with the following parameters;
-- `byte`
- - The data to decrypt as an array of bytes.
-
-The key for the decryption will be provided by the `SetKey` function.
-
-The function should return the decrypted data as an array of bytes.
-
-When your code is working correctly, the following test cases should pass:
-- DecryptCase 1
-- DecryptCase 2
-- DecryptCase 3
-
-### Step 3, Explain your code
-In [answer.md](answer.md) write a brief explanation about how your code works and how you solved any problems which you encountered. 
-
-#### Links
-- [Wikipedia](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)
-- [Flash animation](http://www.formaestudio.com/rijndaelinspector/archivos/Rijndael_Animation_v4_eng.swf)
-- [FIPS publication](http://csrc.nist.gov/publications/fips/fips197/fips-197.pdf)
-
-#### Notes
-- The data passed will be a single block.
-- There will be 3 different sizes of keys passed.
-    - 128 
-    - 192 
-    - 256
-- The cipher mode will ***always*** be ECB
-- It is allowed to use packages or build-in functionality for this, which means writing your own cipher code is optional.
-
-## Test cases
 
 #### Encrypt
 <table>
@@ -80,6 +40,16 @@ In [answer.md](answer.md) write a brief explanation about how your code works an
     </tr>
 </table>
 
+### Step 2: Decryption
+Create your decrypt function in [Rijndael.cs](Rijndael.cs) under `decrypt`.
+This function will be called from the test cases with the following parameters;
+- `byte`
+ - The data to decrypt as an array of bytes.
+- `key`
+ - The key to use for the decryption, as an array of bytes.
+
+The function should return the decrypted data as an array of bytes.
+
 #### Decrypt
 <table>
     <tr>
@@ -107,3 +77,47 @@ In [answer.md](answer.md) write a brief explanation about how your code works an
         <td>3243f6a8885a308d313198a2e0370734</td>
     </tr>
 </table>
+#### Note
+- The data passed will be a single block.
+- There will be 3 different sizes of keys passed.
+    - 128 
+    - 192 
+    - 256
+- The cipher mode will ***always*** be ECB
+- *It is allowed to use packages or build-in functionality for this, which means writing your own cipher code is optional.*
+
+### Test Results *before* solving the challenge  
+```
+codecheck: Finish with code 7
+codecheck: tests  : 7
+codecheck: success: 0
+codecheck: failure: 7
+```
+
+### Test Results *after* solving the challenge
+```
+codecheck: Finish with code 0
+codecheck: tests  : 7
+codecheck: success: 7
+codecheck: failure: 0
+```
+--- --- ---
+## Run Tests
+To run tests locally install `codecheck` by running the following command in terminal 
+```
+$ npm install codecheck -g
+```
+To run tests in web editor please click in `RUN` button on left side of web editor
+
+## Explain your code
+In [answer.md](answer.md) write a brief explanation 
+- About how your code works
+- Problems faced while solving the challenge
+- How you solved those problems
+- Improvements/Feedbacks are also welcomed
+
+#### References
+- [Wikipedia](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)
+- [Flash animation](http://www.formaestudio.com/rijndaelinspector/archivos/Rijndael_Animation_v4_eng.swf)
+- [FIPS publication](http://csrc.nist.gov/publications/fips/fips197/fips-197.pdf)
+>>>>>>> 6c3d206f366dc461550daa56d3f545136fe5bd1b

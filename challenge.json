@@ -7,12 +7,17 @@
     ],
     "editable": [
         "Rijndael.cs",
-        "answer.md"
+        "answer.md",
+        ".gitignore",
+        "codecheck.yml"
     ],
     "excludes": [
-        ".gitignore",
-        "challenge.json",
-        "HiddenTests.cs"
+        "challenge.json"
     ],
+    "readme" : {
+        "en" : "README.md",
+        "ja" : "README_ja.md"
+    },
+    "allowNewFile": true,
     "test": "nunit-console target/RijndaelMedium.dll"
 }

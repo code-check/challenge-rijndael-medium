@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 暗号化問題(ラインダール)
 これはラインダール(Rijindael)を実装するアルゴリズムチャレンジです。  
 
@@ -6,10 +7,19 @@ Rijndaelとは、ベルギーの数学者Joan Daemen氏とVincent Rijmen氏に�
 2000年10月に、アメリカ政府標準技術局（NIST）によって次世代の暗号化標準**AES（Advanced Encryption Standard）**に選定されました。
 
 ### 参考
+=======
+## インフォメーション
+Rijndael, commonly referred to as the ***Advanced Encryption Standard*** (AES), is a specification for encrypting data.
+
+The goal of this challenge is to implement this cipher so it will validate under the various test cases.
+
+#### Links
+>>>>>>> 6c3d206f366dc461550daa56d3f545136fe5bd1b
 - [Wikipedia](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)
 - [Flash animation](http://www.formaestudio.com/rijndaelinspector/archivos/Rijndael_Animation_v4_eng.swf)
 - [FIPS publication](http://csrc.nist.gov/publications/fips/fips197/fips-197.pdf)
 
+<<<<<<< HEAD
 ## 問題
 この問題では、いくつかのテストケースが与えられており、それらをすべて満たす暗号化の実装をします。
 
@@ -24,6 +34,20 @@ Rijndaelとは、ベルギーの数学者Joan Daemen氏とVincent Rijmen氏に�
     - バッファとして暗号化に使用されるキー
 
 #### テストケース
+=======
+#### Notes
+- The data passed will be a single block.
+- There will be 3 different sizes of keys passed.
+    - 128 
+    - 192 
+    - 256
+- The cipher mode will ***always*** be ECB
+- It is allowed to use packages or build-in functionality for this, which means writing your own cipher code is optional.
+
+## Test cases
+
+#### Encrypt
+>>>>>>> 6c3d206f366dc461550daa56d3f545136fe5bd1b
 <table>
     <tr>
         <th>#</th>
@@ -51,6 +75,7 @@ Rijndaelとは、ベルギーの数学者Joan Daemen氏とVincent Rijmen氏に�
     </tr>
 </table>
 
+<<<<<<< HEAD
 #### 正しいテストの実行結果
 - 正しく問題を解答できた場合、テストケースのうちの以下の4つが通過することができます
 ```
@@ -71,6 +96,9 @@ ok 5 Encrypt case 3
     - バッファとして暗号化解読に使用されるキー
 
 #### テストケース
+=======
+#### Decrypt
+>>>>>>> 6c3d206f366dc461550daa56d3f545136fe5bd1b
 <table>
     <tr>
         <th>#</th>
@@ -97,6 +125,7 @@ ok 5 Encrypt case 3
         <td>3243f6a8885a308d313198a2e0370734</td>
     </tr>
 </table>
+<<<<<<< HEAD
 
 #### 正しいテストの実行結果
 - 正しく問題を解答できた場合、テストケースのうちの以下の4つが通過することができます
@@ -160,3 +189,5 @@ $ npm install codecheck -g
 ```
 
 - テストを実行するにはroot folderから `codecheck`と入力し、実行してください
+=======
+>>>>>>> 6c3d206f366dc461550daa56d3f545136fe5bd1b
