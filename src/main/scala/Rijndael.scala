@@ -6,14 +6,18 @@ import org.bouncycastle.crypto.params.KeyParameter
 class Rijndael extends IRijndael {
   override def encrypt(byte: Array[Byte], key: Array[Byte]): Array[Byte] = {
     //BEGIN_CHALLENGE
-    transform(byte, key)
+    // transform(byte, key)
     //END_CHALLENGE
+    //Please remove the following line and solve challenge here
+    Array[Byte](0,1)
   }
 
   override def decrypt(byte: Array[Byte], key: Array[Byte]): Array[Byte] = {
     //BEGIN_CHALLENGE
-    transform(byte, key, encrypt = false)
+    // transform(byte, key, encrypt = false)
     //END_CHALLENGE
+    //Please remove the following line and solve challenge here
+    Array[Byte](0,1)
   }
 
   //BEGIN_CHALLENGE
