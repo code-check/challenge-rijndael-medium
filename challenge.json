@@ -19,5 +19,6 @@
     "challenge.json",
     "test2.js"
   ],
+  "allowNewFile": true,
   "test": "mocha"
 }
