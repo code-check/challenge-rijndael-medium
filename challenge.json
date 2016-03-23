@@ -7,7 +7,9 @@
     ],
     "editable": [
         "rijndael.go",
-        "answer.md"
+        "answer.md",
+        ".gitignore",
+        "codecheck.yml"
     ],
     "excludes": [
         "challenge.json",
