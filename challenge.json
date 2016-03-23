@@ -8,11 +8,16 @@
   "editable": [
     "src/main/scala/Rijdael.scala",
     "build.sbt",
-    "answer.md"
+    "answer.md",
+    ".gitignore"
   ],
   "excludes": [
-    ".gitignore",
     "challenge.json"
   ],
+  "readme" : {
+    "en" : "README.md",
+    "ja" : "README_ja.md"
+  },
+  "allowNewFile": true,
   "test": "sbt test"
 }
