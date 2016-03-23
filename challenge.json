@@ -6,7 +6,7 @@
     "Algorithm"
   ],
   "editable": [
-    "src/main/scala/Rijdael.scala",
+    "Rijdael.scala",
     "build.sbt",
     "answer.md",
     ".gitignore"
