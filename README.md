@@ -120,7 +120,7 @@ codecheck: failure: 0
 ```
 $ npm install codecheck -g
 ```
-- To run tests in web editor please click in `Run` button on left side of web editor
+- To run tests in web editor please click in `RUN` button on left side of web editor
 
 ## Explain your code
 In [answer.md](answer.md) write a brief explanation 
