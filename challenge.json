@@ -6,10 +6,11 @@
     "Algorithm"
   ],
   "editable": [
-    "Rijdael.scala",
+    "src/main/scala/Rijndael.scala",
     "build.sbt",
     "answer.md",
-    ".gitignore"
+    ".gitignore",
+    "codecheck.yml"
   ],
   "excludes": [
     "challenge.json"
