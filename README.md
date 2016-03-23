@@ -41,7 +41,7 @@ The function should return the encrypted data as an array of bytes.
 </table>
 
 ### Step 2: Decryption
-Create your decrypt function in [filename](filepath) under `decrypt`.
+Create your decrypt function in [Rijndael.java](src/main/java/Rijndael.java) under `decrypt`.
 This function will be called from the test cases with the following parameters;
 - `byte`
  - The data to decrypt as an array of bytes.
