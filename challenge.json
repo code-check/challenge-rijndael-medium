@@ -8,11 +8,17 @@
   "editable": [
     "src/main/java/Rijndael.java",
     "answer.md",
-    ".gitignore"
+    ".gitignore",
+    "codecheck.yml"
   ],
   "excludes": [
     "challenge.json",
     "RijndaelHiddenTest.java"
   ],
+  "readme" : {
+    "en" : "README.md",
+    "ja" : "README_ja.md"
+  },
+  "allowNewFile": true,
   "test": "mvn test"
 }
