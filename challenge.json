@@ -9,11 +9,11 @@
     "src/main/java/Rijndael.java",
     "answer.md",
     ".gitignore",
-    "codecheck.yml"
+    "codecheck.yml",
+    "pom.xml"
   ],
   "excludes": [
-    "challenge.json",
-    "RijndaelHiddenTest.java"
+    "challenge.json"
   ],
   "readme" : {
     "en" : "README.md",
