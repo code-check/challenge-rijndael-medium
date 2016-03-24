@@ -15,6 +15,7 @@
   "excludes": [
     "challenge.json"
   ],
+  "main" : "src/main/java/Rijndael.java",
   "readme" : {
     "en" : "README.md",
     "ja" : "README_ja.md"
