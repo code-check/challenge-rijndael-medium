@@ -19,6 +19,7 @@
   "excludes": [
     "challenge.json"
   ],
+  "main": "app.js",
   "allowNewFile": true,
   "test": "mocha"
 }
