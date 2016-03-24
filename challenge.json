@@ -9,7 +9,8 @@
     "app.js",
     "package.json",
     "answer.md",
-    ".gitignore"
+    ".gitignore",
+    "codecheck.yml"
   ],
   "readme" : {
     "en" : "README.md",
