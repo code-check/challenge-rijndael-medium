@@ -18,6 +18,7 @@
         "en" : "README.md",
         "ja" : "README_ja.md"
     },
+    "main": "IRijndael.cs",
     "allowNewFile": true,
     "test": "nunit-console target/RijndaelMedium.dll"
 }
