@@ -16,8 +16,7 @@
     "ja" : "README_ja.md"
   },
   "excludes": [
-    "challenge.json",
-    "test2.js"
+    "challenge.json"
   ],
   "allowNewFile": true,
   "test": "mocha"

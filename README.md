@@ -1,6 +1,6 @@
 ## rijndael
 Rijndael, commonly referred to as the ***Advanced Encryption Standard*** (AES), is a specification for encrypting data.
-Solve the challenge to implement this cipher and pass [tests](test/test1.js).
+Solve the challenge to implement this cipher and pass [tests](test).
 
 ## Challenge Description
 ### Step 1: Encryption
