@@ -13,7 +13,6 @@
     "pom.xml"
   ],
   "excludes": [
-    "src/test/java/RijndaelHiddenTest.java",
     "challenge.json"
   ],
   "main" : "src/main/java/Rijndael.java",
