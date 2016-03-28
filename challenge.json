@@ -12,6 +12,7 @@
         "codecheck.yml"
     ],
     "excludes": [
+        "rijndael_hidden_test.go",
         "challenge.json"
     ],
     "readme" : {
