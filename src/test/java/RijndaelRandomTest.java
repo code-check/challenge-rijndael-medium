@@ -8,7 +8,7 @@ import javax.crypto.spec.SecretKeySpec;
 import java.lang.reflect.Field;
 import java.util.Random;
 
-public class RijndaelHiddenTest extends Rijndael {
+public class RijndaelRandomTest extends Rijndael {
     @Before
     public void init() {
         try {
