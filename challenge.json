@@ -17,7 +17,6 @@
     "ja" : "README_ja.md"
   },
   "excludes": [
-    "test/hidden-test.js",
     "challenge.json"
   ],
   "main": "app.js",
