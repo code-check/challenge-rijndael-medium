@@ -120,4 +120,3 @@ In [answer.md](answer.md) write a brief explanation
 - [Wikipedia](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)
 - [Flash animation](http://www.formaestudio.com/rijndaelinspector/archivos/Rijndael_Animation_v4_eng.swf)
 - [FIPS publication](http://csrc.nist.gov/publications/fips/fips197/fips-197.pdf)
->>>>>>> f60b3b418c21be859746878f3801f23711d83923
